@@ -47,8 +47,8 @@ if ($query_update) {
     // Convertir el array de datos del ticket a JSON
     $datos_json = json_encode(array($datos_ticket));
 
-    // Cambiamos a la base de datos "pruebar"
-    mysqli_select_db($con, "pruebar");
+    // Cambiamos a la base de datos "prueba_demor"
+    mysqli_select_db($con, "prueba_demor");
 
     // Insertar datos en la tabla tickets
     $sql_insert_ticket = "INSERT INTO tickets (datos_json, habitacion, comensal, fyh) VALUES ('$datos_json', '$habitacion', '$cliente', NOW())";

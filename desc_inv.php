@@ -372,7 +372,7 @@ function salir() {
         <select name="categoria" id="categoria" onchange="actualizarElementos()">
             <option value="">Selecciona una categoría</option>
             <?php
-            $conn = new mysqli("localhost", "root", "", "pruebar");
+            $conn = new mysqli("localhost", "root", "", "prueba_demor");
 
             if ($conn->connect_error) {
                 die("Conexión fallida: " . $conn->connect_error);

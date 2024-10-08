@@ -1,5 +1,5 @@
 <?php 
-$conexion=mysqli_connect('localhost','root','','prueba');
+$conexion=mysqli_connect('localhost','root','','prueba_demo');
 $habitacion=$_POST['habitacion'];
 
 	$sql="SELECT id,

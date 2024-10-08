@@ -4,7 +4,7 @@ function conectar2(){
     $user="root";
     $pass="";
 
-    $bd="pruebar";
+    $bd="prueba_demor";
 
     $con=mysqli_connect($host,$user,$pass);
 

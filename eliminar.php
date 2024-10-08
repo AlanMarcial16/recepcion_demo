@@ -1,6 +1,6 @@
 <?php
 // Conexión a la base de datos
-$conn = mysqli_connect("localhost", "root", "", "prueba");
+$conn = mysqli_connect("localhost", "root", "", "prueba_demo");
 
 // Verifica si se recibió el ID de la fila a eliminar
 if (isset($_POST['cod_operacion'])) {

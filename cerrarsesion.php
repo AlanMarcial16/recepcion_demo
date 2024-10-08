@@ -155,7 +155,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="form-group">
             <h2>Validó</h2>
             <?php
-            $conexion = mysqli_connect("localhost", "root", "", "prueba");
+            $conexion = mysqli_connect("localhost", "root", "", "prueba_demo");
 
             if (mysqli_connect_errno()) {
                 echo "Error al conectar con la base de datos: " . mysqli_connect_error();

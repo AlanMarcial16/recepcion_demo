@@ -183,12 +183,12 @@ function salir() {
 $servername1 = "localhost";
 $username1 = "root";
 $password1 = "";
-$database1 = "pruebar";
+$database1 = "prueba_demor";
 
 $servername2 = "localhost";
 $username2 = "root";
 $password2 = "";
-$database2 = "prueba";
+$database2 = "prueba_demo";
 
 $conn1 = mysqli_connect($servername1, $username1, $password1, $database1);
 $conn2 = mysqli_connect($servername2, $username2, $password2, $database2);

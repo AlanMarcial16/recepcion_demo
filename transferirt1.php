@@ -315,26 +315,26 @@ function salir() {
                                 <br>
 
                                 <?php
-// Conexión a la base de datos 'pruebar' (tickets)
+// Conexión a la base de datos 'prueba_demor' (tickets)
 $servername_tickets = "localhost";
 $username_tickets = "root";
 $password_tickets = "";
-$database_tickets = "pruebar";
+$database_tickets = "prueba_demor";
 $conn_tickets = mysqli_connect($servername_tickets, $username_tickets, $password_tickets, $database_tickets);
 
 if (!$conn_tickets) {
-    die("Conexión fallida a la base de datos 'pruebar': " . mysqli_connect_error());
+    die("Conexión fallida a la base de datos 'prueba_demor': " . mysqli_connect_error());
 }
 
-// Conexión a la base de datos 'prueba' (reservaciones)
+// Conexión a la base de datos 'prueba_demo' (reservaciones)
 $servername_reservaciones = "localhost";
 $username_reservaciones = "root";
 $password_reservaciones = "";
-$database_reservaciones = "prueba";
+$database_reservaciones = "prueba_demo";
 $conn_reservaciones = mysqli_connect($servername_reservaciones, $username_reservaciones, $password_reservaciones, $database_reservaciones);
 
 if (!$conn_reservaciones) {
-    die("Conexión fallida a la base de datos 'prueba': " . mysqli_connect_error());
+    die("Conexión fallida a la base de datos 'prueba_demo': " . mysqli_connect_error());
 }
 
 // Obtener los datos de la tabla reservaciones
@@ -355,7 +355,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "ID del ticket: " . $ticket_id; // Mostrar el id para verificar
     
         // Actualizar la tabla tickets con los nuevos valores utilizando el ID del ticket
-        $sql_update = "UPDATE pruebar.tickets SET habitacion='$habitacion', comensal='$cliente' WHERE id=$ticket_id";
+        $sql_update = "UPDATE prueba_demor.tickets SET habitacion='$habitacion', comensal='$cliente' WHERE id=$ticket_id";
         if (mysqli_query($conn_tickets, $sql_update)) {
             echo "Ticket actualizado correctamente.";
         } else {

@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cantidadADescontar = $_POST['cantidad'];
 
     if (!empty($elementoId) && !empty($cantidadADescontar) && is_numeric($cantidadADescontar) && $cantidadADescontar > 0) {
-        $conn = new mysqli("localhost", "root", "", "pruebar");
+        $conn = new mysqli("localhost", "root", "", "prueba_demor");
 
         if ($conn->connect_error) {
             $response["status"] = "error";

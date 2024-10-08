@@ -232,7 +232,7 @@ function salir() {
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "prueba";
+$database = "prueba_demo";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 

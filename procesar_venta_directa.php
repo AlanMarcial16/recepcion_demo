@@ -39,7 +39,7 @@ if ($query_insert_cajaop) {
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $database = "pruebar";
+        $database = "prueba_demor";
 
         $conn1 = mysqli_connect($servername, $username, $password, $database);
 

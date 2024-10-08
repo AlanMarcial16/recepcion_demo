@@ -3,7 +3,7 @@ if (isset($_GET['categoria'])) {
     $categoria = $_GET['categoria'];
 
     // Conexión a la base de datos
-    $conn = new mysqli("localhost", "root", "", "pruebar");
+    $conn = new mysqli("localhost", "root", "", "prueba_demor");
 
     // Verificar conexión
     if ($conn->connect_error) {

@@ -57,7 +57,7 @@ $pdf->Cell(58, 5, utf8_decode('Pedido: MESA 1'), 0, 1, 'C'); // Centrar el texto
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "prueba";
+$dbname = "prueba_demo";
 
 // Crear una conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -138,7 +138,7 @@ $pdf->Ln(4); // Saltar una línea después de la línea punteada
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "prueba";
+$dbname = "prueba_demo";
 
 // Crear una conexión
 $conn = new mysqli($servername, $username, $password, $dbname);

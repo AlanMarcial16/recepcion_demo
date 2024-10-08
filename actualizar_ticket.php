@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $cliente_actual = $_POST['cliente_actual'];
 
         // Realizar la conexión a la base de datos
-        $link = mysqli_connect('localhost', 'root', '', 'pruebar');
+        $link = mysqli_connect('localhost', 'root', '', 'prueba_demor');
 
         // Verificar la conexión
         if ($link === false) {

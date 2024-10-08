@@ -1,13 +1,13 @@
 <?php
-$servername1 = "localhost";  // Datos de la base de datos "pruebar" (tabla "tickets")
+$servername1 = "localhost";  // Datos de la base de datos "prueba_demor" (tabla "tickets")
 $username1 = "root";
 $password1 = "";
-$database1 = "pruebar";
+$database1 = "prueba_demor";
 
-$servername2 = "localhost";  // Datos de la base de datos "prueba" (tabla "reservaciones")
+$servername2 = "localhost";  // Datos de la base de datos "prueba_demo" (tabla "reservaciones")
 $username2 = "root";
 $password2 = "";
-$database2 = "prueba";
+$database2 = "prueba_demo";
 
 // Crear la conexión a ambas bases de datos
 $conn1 = mysqli_connect($servername1, $username1, $password1, $database1);

@@ -612,7 +612,7 @@ if (!empty($matches[1])) {
     echo '</div>';
 }
 
-                                                $sql_reservaciones = "SELECT * FROM prueba.reservaciones WHERE cod_reserva = '$id'";
+                                                $sql_reservaciones = "SELECT * FROM prueba_demo.reservaciones WHERE cod_reserva = '$id'";
                                                 $result_reservaciones = mysqli_query($con2, $sql_reservaciones);
                                                 
                                                 if (!$result_reservaciones) {
@@ -623,7 +623,7 @@ if (!empty($matches[1])) {
                                                     $habitacion = $row_reservacion['habitacion'];
                                                     $comensal = $row_reservacion['cliente'];
                                                 
-                                                    $sql_tickets = "SELECT * FROM pruebar.tickets WHERE habitacion = '$habitacion' AND comensal = '$comensal'";
+                                                    $sql_tickets = "SELECT * FROM prueba_demor.tickets WHERE habitacion = '$habitacion' AND comensal = '$comensal'";
                                                     $result_tickets = mysqli_query($con, $sql_tickets);
                                                     
                                                     if (!$result_tickets) {
@@ -727,7 +727,7 @@ if (!empty($matches[1])) {
                                                     <li>CONSUMOS:</li>
                                                     <ul>
                                                         <?php
-                                                        $sql_reservaciones = "SELECT * FROM prueba.reservaciones WHERE cod_reserva = '$id'";
+                                                        $sql_reservaciones = "SELECT * FROM prueba_demo.reservaciones WHERE cod_reserva = '$id'";
                                                         $result_reservaciones = mysqli_query($con2, $sql_reservaciones);
                                                         
                                                         if (!$result_reservaciones) {
@@ -738,7 +738,7 @@ if (!empty($matches[1])) {
                                                             $habitacion = $row_reservacion['habitacion'];
                                                             $comensal = $row_reservacion['cliente'];
                                                         
-                                                            $sql_tickets = "SELECT * FROM pruebar.tickets WHERE habitacion = '$habitacion' AND comensal = '$comensal'";
+                                                            $sql_tickets = "SELECT * FROM prueba_demor.tickets WHERE habitacion = '$habitacion' AND comensal = '$comensal'";
                                                             $result_tickets = mysqli_query($con, $sql_tickets);
                                                             
                                                             if (!$result_tickets) {

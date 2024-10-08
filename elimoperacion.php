@@ -203,7 +203,7 @@ function salir() {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $database = "prueba";
+    $database = "prueba_demo";
 
     // Crear conexión
     $conn = new mysqli($servername, $username, $password, $database);

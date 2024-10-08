@@ -298,7 +298,7 @@ function salir() {
 
 <?php
 // Conexión a la base de datos
-$con = new mysqli("localhost", "root", "", "prueba");
+$con = new mysqli("localhost", "root", "", "prueba_demo");
 
 // Verificar la conexión
 if ($con->connect_error) {

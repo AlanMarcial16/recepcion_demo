@@ -2,7 +2,7 @@
 // obtenerHabitaciones.php
 
 // Conexión a la base de datos (asegúrate de configurar tus credenciales correctamente)
-$conn = new mysqli("localhost", "root", "", "prueba");
+$conn = new mysqli("localhost", "root", "", "prueba_demo");
 
 // Verifica la conexión
 if ($conn->connect_error) {

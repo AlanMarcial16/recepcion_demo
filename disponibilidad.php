@@ -15,7 +15,7 @@ function obtener_habitaciones_disponibles() {
     );
 
     // Conexión a la base de datos
-    $conexion = new mysqli('localhost', 'root', '', 'prueba');
+    $conexion = new mysqli('localhost', 'root', '', 'prueba_demo');
 
     // Verificar la conexión
     if ($conexion->connect_error) {

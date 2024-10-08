@@ -280,7 +280,7 @@ function salir() {
                                     $servername = "localhost";
                                     $username = "root";
                                     $password = "";
-                                    $dbname = "prueba";
+                                    $dbname = "prueba_demo";
 
                                     $conn = new mysqli($servername, $username, $password, $dbname);
 

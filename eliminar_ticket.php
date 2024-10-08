@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "pruebar";
+$database = "prueba_demor";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
