@@ -1,0 +1,39 @@
+/* responsive-styles.css */
+
+/* Para pantallas más pequeñas que 600px */
+@media only screen and (max-width: 600px) {
+    .login {
+        width: 90%;
+        margin: 16px auto;
+    }
+  
+    .login-header {
+        font-size: 1.2em;
+    }
+  
+    .login-container {
+        padding: 8px;
+    }
+  
+    .login input {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+  
+    label {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+  
+    input[type="text"] {
+        width: 100%;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
