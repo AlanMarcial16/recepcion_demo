@@ -82,7 +82,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     
     <h1 class="login-header">Entrega recepción</h1>
     <form action="entrec.php" method="post" class="login-container">
-    <h2><b>Por favor <?php echo htmlspecialchars($_SESSION["username"]); ?>, realice el siguiente proceso para cerrar sesión.</b></h2>
+    <h2><b>Por favor <?php echo htmlspecialchars($_SESSION["username"]); ?> - Demo
+                    <span style="font-size: 3vw; font-weight: bold; color: red; display: block; text-align: center; margin-top: 10px;">
+            CAPACITACIÓN
+        </span>, realice el siguiente proceso para cerrar sesión.</b></h2>
     <hr/>
         <div class="form-group ">
         <h2>Corte de caja</h2>

@@ -122,7 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
     <div class="login">
         <img class="logo" src="https://static.wixstatic.com/media/9ed84f_e9388ac15d374e77aa9c89cdb80e014a~mv2.png" alt="Logo">
-        <h1 class="login-header">Inicio de sesión - RECEPCIÓN</h1>
+        <h1 class="login-header">Inicio de sesión - RECEPCIÓN DEMO</h1>
         <br>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="login-container">
             <p>Por favor, introduzca sus credenciales para iniciar sesión.</p>

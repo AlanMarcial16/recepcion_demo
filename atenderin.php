@@ -123,7 +123,10 @@ $row=mysqli_fetch_array($query);
             <div class="header">
                 <a href="inicio.php" class="logo">
                     <img src="https://static.wixstatic.com/media/9ed84f_e9388ac15d374e77aa9c89cdb80e014a~mv2.png" alt="Logo" class="logo-img">
-                    <?php echo htmlspecialchars($_SESSION["username"]); ?>
+                    <?php echo htmlspecialchars($_SESSION["username"]); ?> - Demo
+                    <span style="font-size: 3vw; font-weight: bold; color: red; display: block; text-align: center; margin-top: 10px;">
+            CAPACITACIÓN
+        </span>
                 </a>
                     <div class="header-right">
                         <a href="ocupacion.php">Calendario</a>
